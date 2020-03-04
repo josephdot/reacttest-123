@@ -1,0 +1,79 @@
+/* 
+  Name: FormSection
+  Path: Components/FormSection/
+*/
+
+#form_section {
+  padding: 150px 0 100px 0;
+}
+
+#form_wrapper .container {
+  padding: 0 100px
+}
+
+.form_sec_title {
+  color: #000;
+  font-size: 46px;
+  margin-bottom: 80px;
+}
+
+#form_wrapper .col-sm-6:nth-child(odd) {
+  padding-right: 24px;
+}
+
+#form_wrapper .col-sm-6:nth-child(even) {
+  padding-left: 24px;
+}
+
+#submit_btn button[type="submit"] {
+  background-color: rgb(255, 207, 84);
+  box-shadow: 0px 9px 2.73px 0.27px rgba(0, 0, 0, 0.04);  
+  width: 221px;
+  height: 61px;
+  z-index: 86;
+  font-size: 20px;
+  text-transform: capitalize;
+  border-radius: 61px;
+  border: none;
+  color: #000;
+  font-weight: 600;
+  margin: 80px auto 0 auto;
+  display: block;  
+}
+
+#submit_btn button[type="submit"]:hover {
+  background-color: #f4c449;
+}
+
+input.form-control, select.form-control {
+  border: 1px solid rgb(105, 105, 105);
+  height: 62px;
+  line-height: 62px;
+  border-radius: 5px;
+  background: #fff;
+  width: 100%;
+  font-size: 18px;
+  padding-left: 24px;
+}
+
+#phone_country {
+  width: 25%;
+  margin-right: 18px;
+}
+
+.text-muted.form-text {
+  color: #c12323 !important;
+  font-size: 13px;
+}
+
+#form_wrapper label {
+  font-size: 18px;
+  color: #000;
+  margin-bottom: 12px;
+  line-height: 18px;
+}
+
+.form-control:focus {
+	border-color: #038f7c;
+	box-shadow: 0 0 0 0.2rem rgba(3, 143, 125, 0.15);
+}

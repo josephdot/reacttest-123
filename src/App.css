@@ -1,38 +1,115 @@
-.App {
-  text-align: center;
+/* 
+  Name: App
+  Path: /src/App
+*/
+
+.mobile-show {
+  display: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#terms_conditions .mobile-show {
+  background: #f7f7f7;
+  padding-bottom: 15px;
+  padding-left: 60px;
+  margin: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+
+@media only screen and (max-width: 600px ){
+  header, #form_section {
+    padding: 50px 0;
+  }  
+  
+  header .header_img {
+    width: 90%;
+    margin: 0 auto
+  }
+
+  header h1, .form_sec_title {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 0
+  }
+
+  #form_wrapper {
+    margin: 0 20px;
+  }
+
+  #form_wrapper div[class^='col-'] {
+    padding: 0 15px !important;
+  }
+
+  #form_wrapper .container {
+    padding: 0;
+  }
+
+  #sign_in_agreement {
+    /* flex-direction: column; */
+    padding: 15px;
+  }
+
+  #sign_in_agreement p {
+    
+  }
+
+  #sign_in_agreement input[type="text"] {
+    width: 100%;
+  }
+
+  .form_sec_title {
+    margin-bottom: 25px;
+  }
+
+  #address_city {
+    margin-top: 0 !important;
+  }
+
+  footer .contact, footer .address {
+    padding: 15px
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media only screen and ( max-width: 768px ) {
+  #address_city {
+    margin-top: 38px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .header_img {
+    max-width: 600px;
+    margin: 0 auto
+  }
+
+  header h1 {
+    text-align: center;
+  }
+
+  input.form-control, select.form-control {
+    padding: 5px;
+  }
+
+  #sign_in_agreement {
+    padding: 35px 70px 15px 70px
+  }
+
+  #sign_in_agreement p {
+    width: auto
+  }
+
+  .mobile-show {
+    display: block;
+  }
+
+  .mb-hidden {
+    display: none;
+  }
+
+  #terms_conditions .t_and_c_wrap {
+    padding: 30px;
+  }
+
+  #terms_conditions h2 {
+    padding: 21px 0;
+    font-size: 30px;
+    line-height: 1.1;
   }
 }

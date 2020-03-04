@@ -1,0 +1,23 @@
+/* 
+  Name: Header
+  Path: Components/Header/
+*/
+
+header {
+  background: url(../../images/header-bg.png) no-repeat top center;
+  background-size: cover;
+  padding: 110px 0;
+}
+
+header h1 {
+  color: #fff;
+}
+
+header .text-bold {
+  color: #fbd256;
+}
+
+.header_img {
+  width: 690px;
+  margin-left: -160px;
+}
